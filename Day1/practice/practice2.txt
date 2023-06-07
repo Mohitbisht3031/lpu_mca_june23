@@ -1,0 +1,4 @@
+Can you find out the sum of digits of a number?
+Find the factorial of a number
+Write a program to find the reverse of a number.
+https://leetcode.com/problems/categorize-box-according-to-criteria/
