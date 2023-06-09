@@ -1,0 +1,2 @@
+Q1. rotate the array on right
+Q2 move all the 0 on the end of the array.
