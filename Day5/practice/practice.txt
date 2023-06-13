@@ -1,0 +1,2 @@
+https://leetcode.com/problems/single-number/
+ find degree of a given array
