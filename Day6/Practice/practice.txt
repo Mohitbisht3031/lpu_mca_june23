@@ -1,0 +1,2 @@
+https://leetcode.com/problems/find-pivot-index/
+https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/
