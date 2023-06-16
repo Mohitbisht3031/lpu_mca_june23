@@ -1,0 +1,2 @@
+Q2 extract and reverse each word of the given sentence
+Q1 https://leetcode.com/problems/to-lower-case/
