@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 
 using namespace std;
-
+//approach 1
 string reverseWords(string sentence){
     string ans = "";
     string word = "";
@@ -15,6 +15,20 @@ string reverseWords(string sentence){
     // word == ?
     reverse(word.begin(),word.end());
     ans+=' '+word;
+    return ans.substr(1);
+}
+
+//approach 2
+string reverseWords(string sentence){
+    string ans = "";
+    string word = "";
+    stringstream ss(sentence);
+
+    while(getline(ss,word,' ')){
+        reverse(word.begin(),word.end());
+        ans+=' '+word;
+    }
+
     return ans.substr(1);
 }
 
