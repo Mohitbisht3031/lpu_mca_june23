@@ -18,6 +18,25 @@ int majorityElement(vector<int>& nums) {
 // Arrays.sort(nums);
 // return nums[nums.length/2];
 
+// optimized approach
+int majorityElement(vector<int>& nums) {
+    int me = nums[0];
+    int f = 1;
+    for(int i = 1;i<nums.size();i++){
+        if(nums[i] == me){
+            f++;
+        }else{
+            f--;
+        }
+        if(f <= 0){
+            me = nums[i];
+            f = 1;
+        }
+    }
+
+    return me;
+}
+
 int main(){
     return 0;
 }
