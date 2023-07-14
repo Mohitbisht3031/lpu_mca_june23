@@ -13,6 +13,7 @@ class PQ{
     }
 
     int getMin(){
+        if(v.size() == 0)return -1;
         return v[0];
     }
 
@@ -50,6 +51,7 @@ class PQ{
             }
             if(minI == pi)break;
             swap(v[pi],v[minI]);
+            pi = minI;
             lci = 2*pi+1;
             rci = 2*pi+2;
         }
